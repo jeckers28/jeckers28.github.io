@@ -1,6 +1,7 @@
 .projects-section {
   padding: 10rem 0;
   overflow-x: hidden;
+  overflow-y: hidden;
   .featured-text {
     padding: 2rem;
     @media (min-width: 992px) {
@@ -29,10 +30,15 @@
     padding-bottom: 15px;
   }
 
+.webs {
+  margin-bottom: 40px;
+}
+
  .card {
    width: 100%;
    min-height: 110%;
    max-height: 110%;
+ 
 
    &:hover {
     box-shadow: 2px 1px 8px -1px rgba(0,0,0,0.36);
