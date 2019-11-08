@@ -167,6 +167,7 @@
 .about-section {
   padding-top: 5rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  overflow-x: hidden;
 }
 
 .about-section p {
@@ -185,6 +186,7 @@
 
 .projects-section {
   padding: 10rem 0;
+  overflow-x: hidden;
 }
 
 .projects-section .featured-text {
@@ -305,6 +307,7 @@
 
 .skill-section {
   padding-top: 5rem;
+  overflow-x: hidden;
 }
 
 .skill-section p {
@@ -314,6 +317,7 @@
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
+  overflow-x: hidden;
 }
 
 a {
