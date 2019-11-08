@@ -90,7 +90,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/masthead.jpeg");
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   background-position: center;
@@ -170,7 +170,17 @@
 }
 
 .about-section p {
+  margin-bottom: 1rem;
+}
+
+.about-section button {
   margin-bottom: 5rem;
+  background-color: #f45905;
+}
+
+.about-section button:hover {
+  background-color: black;
+  color: #f45905;
 }
 
 .projects-section {
@@ -202,6 +212,14 @@
     border-width: .25rem;
     width: 30%;
   }
+}
+
+.projects-section .main {
+  box-shadow: 2px 1px 8px -1px rgba(0, 0, 0, 0.36);
+  width: 100%;
+  height: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .signup-section {
